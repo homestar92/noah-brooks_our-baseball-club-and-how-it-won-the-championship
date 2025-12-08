@@ -98,3 +98,7 @@ figcaption p + p{
 	text-indent: 0;
 }
 /* end figures */
+
+#chapter-17 > blockquote:last-of-type{
+	text-align: center;
+}
