@@ -6,6 +6,9 @@ footer{
 	text-align: right;
 }
 
+[epub|type~="z3998:sender"],
+[epub|type~="z3998:recipient"],
+[epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
@@ -33,4 +36,8 @@ ul{
 #chapter-2 > div > div > header,
 #chapter-11 > div > div > header{
 	font-style: italic;
+}
+
+.telegram{
+	font-variant: all-small-caps;
 }
