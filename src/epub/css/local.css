@@ -1,6 +1,12 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
 footer{
 	margin-top: 1em;
 	text-align: right;
@@ -36,6 +42,16 @@ ul{
 #chapter-2 > div > div > header,
 #chapter-11 > div > div > header{
 	font-style: italic;
+	font-variant: normal;
+	margin: 0;
+}
+
+blockquote[epub|type~="article"] > div{
+	margin: 1em;
+}
+
+table{
+	margin: 1em auto;
 }
 
 .telegram{
