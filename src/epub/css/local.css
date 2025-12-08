@@ -52,6 +52,12 @@ blockquote[epub|type~="z3998:article"] > div{
 
 table{
 	margin: 1em auto;
+	text-align: right;
+}
+
+table td:first-child,
+table th:first-child {
+  text-align: initial;
 }
 
 .telegram{
